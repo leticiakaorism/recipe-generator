@@ -70,7 +70,9 @@ form {
     border-left: 3px solid #EF5E9A;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
+.recipe strong {
+    color: #EF5E9A;
+}
 footer {
     text-align: center;
     font-size: 13px;
