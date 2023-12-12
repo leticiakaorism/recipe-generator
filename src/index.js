@@ -28,12 +28,11 @@ recipeElement.innerHTML = `<div class="generating">⏳ Generating a delicious Ve
 
 console.log("GENERATING");
 console.log(`prompt: ${prompt}`);
-console.log(`context:${context}`)
+console.log(`context:${context}`);
+
 axios.get(apiUrl).then(displayRecipe);
 
-   
 }
-
 
 let recipeFormElement = document.querySelector("#recipe-generator-form");
 recipeFormElement.addEventListener("submit", generateRecipe);
