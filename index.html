@@ -18,19 +18,24 @@
     <h1>AI Vegan Recipe Generator</h1>
 </header>
 <main>
+    <div class="form-container">
     <form  id="recipe-generator-form">
         <input type="text" 
-        placeholder="Enter the dish"
+        placeholder="Enter the dish you'd to cook"
         autofocus
         required
         autocomplete="off"
         class="instructions"
         id="instructions-recipe"
-        
         />
-        <input type="submit" name="" id="" class="submit-button">
+        <input type="submit" class="submit-button">
     </form>
-    <div class="recipe" id="recipe"></div>
+    <div class="hint">
+     e.g: Chocolate Cake, Risotto, Pizza etc.
+    </div>
+    
+</div>
+    <div class="recipe hidden" id="recipe"></div>
 </main>
 </div>
     <footer>This AI project was coded by <a href="https://github.com/leticiakaorism" target="_blank">Leticia Kaori</a>
